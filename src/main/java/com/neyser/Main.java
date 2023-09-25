@@ -10,7 +10,8 @@ public class Main {
         //File file1 = new File("carpetaDatos1");
         File file1 = new File("carpetaDatos1/datos1.txt");
 
-        /*File file2 = new File("carpetaDatos1");
+        /*
+        File file2 = new File("carpetaDatos1");
         File file3 = new File("carpetaDatos1/datos1.txt");
         file2.mkdir();
         file3.createNewFile();
@@ -21,7 +22,7 @@ public class Main {
             FileReader fileReader1 = new FileReader(file1);
             BufferedReader bufferedReader1 = new BufferedReader(fileReader1);
             String strCurrentLine;
-            while ((strCurrentLine=bufferedReader1.readLine())  != null)
+            while ((strCurrentLine=bufferedReader1.readLine()) != null)
             {
                 System.out.println(strCurrentLine);
             }
